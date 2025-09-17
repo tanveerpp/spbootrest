@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: userservice
+  datasource:
+    url: jdbc:postgresql://dpg-cuhn2jrtq21c73bclu10-a.oregon-postgres.render.com:5432/ppspr
+    username: ppspr_user
+    password: Ksvghyw9KJTJGP44qfJAc7IVSOWpETQX
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+eureka:
+  instance:
+    hostname: localhost
