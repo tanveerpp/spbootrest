@@ -52,11 +52,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<dependencyManagement>
-		<dependencies>
-			
-		</dependencies>
-	</dependencyManagement>
+	
 
 	<build>
 		<plugins>
